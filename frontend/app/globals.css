@@ -1,0 +1,114 @@
+/* ---------- General Styles ---------- */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Container ---------- */
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* ---------- Header ---------- */
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* ---------- Input & Button ---------- */
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 6px 0 0 6px;
+  border: 1px solid #ccc;
+  width: 300px;
+  outline: none;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0070f3;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0 6px 6px 0;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* ---------- Table ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #f7f9fb;
+  font-weight: 600;
+  color: #555;
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s ease;
+}
+
+tbody tr:hover {
+  background-color: #f0f5ff;
+}
+
+/* ---------- Delete Button ---------- */
+.delete-btn {
+  background-color: #ff4d4f;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.delete-btn:hover {
+  background-color: #d9363e;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+    margin: 20px auto;
+  }
+  
+  input {
+    width: 60%;
+  }
+  
+  table, th, td {
+    font-size: 12px;
+  }
+}
